@@ -21,21 +21,21 @@ toc: true
 Follow our handy guides to get started on the basics as quickly as possible:
 {{< details "Recommended Tutorials" open>}}
 
-[💻 Update Your USB Nugget with Chrome Browser](https://usbnugget.com/docs/guides/update-with-chrome/)
+[💻 Update Your USB Nugget with Chrome Browser](https://usbnugget.dev/docs/guides/update-with-chrome/)
 <br/><br/>
-[🛠 Writing Your First Payload](https://usbnugget.com/docs/guides/write-first-payload/)
+[🛠 Writing Your First Payload](https://usbnugget.dev/docs/guides/write-first-payload/)
 <br/><br/>
-[⚙️ Loading Payloads on the Nugget](https://usbnugget.com/docs/guides/load-payloads/)
+[⚙️ Loading Payloads on the Nugget](https://usbnugget.dev/docs/guides/load-payloads/)
 {{< /details >}}
 
 ### Fundamentals: Dive a little deeper
 Learn the fundamentals of the USB Nugget to get a deeper understanding of our main features:{{< details "Recommended Tutorials" open>}}
 
-[🖥 Wi-Fi Interface](https://usbnugget.com/docs/fundamentals/wi-fi-interface/)
+[🖥 Wi-Fi Interface](https://usbnugget.dev/docs/fundamentals/wi-fi-interface/)
 <br/><br/>
-[📡 Live Control](https://usbnugget.com/docs/fundamentals/live-control/)
+[📡 Live Control](https://usbnugget.dev/docs/fundamentals/live-control/)
 <br/><br/>
-[🐍 Set Up CircuitPython](https://usbnugget.com/docs/fundamentals/circuit-python/)
+[🐍 Set Up CircuitPython](https://usbnugget.dev/docs/fundamentals/circuit-python/)
 <br/><br/>
-[⚙️ Set Up Arduino](https://usbnugget.com/docs/fundamentals/arduino/)
+[⚙️ Set Up Arduino](https://usbnugget.dev/docs/fundamentals/arduino/)
 {{< /details >}}

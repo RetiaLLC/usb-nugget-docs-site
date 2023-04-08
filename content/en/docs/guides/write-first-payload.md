@@ -1,7 +1,7 @@
 ---
 title: "Writing Your First Payload"
-description: "Making DuckyScript Payloads on the USB Nugget"
-lead: "Making DuckyScript Payloads on the USB Nugget"
+description: "Making Nugget Script Payloads on the USB Nugget"
+lead: "Making Nugget Script Payloads on the USB Nugget"
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
@@ -15,50 +15,52 @@ toc: true
 <img src="/images/payload.gif" title="Payload Image"/>
 <br /><br />
 
-The USB Nugget supports DuckyScript™, making it easy to create your first payload!
+The USB Nugget supports Nugget Script, making it easy to create your first payload!
 
-If you need inspiration, you can find a list of DuckyScrit payloads on the [Hak5 GitHub repository](https://github.com/hak5/usbrubberducky-payloads). 
+If you need inspiration, you can find a list of Nugget Script payloads on the [Hak5 GitHub repository](https://github.com/hak5/usbrubberducky-payloads). 
 
-To get started, let's review the full list of DuckyScript™ commands the RubberNugget supports.
+To get started, let's review the full list of Nugget Script commands the USB Nugget supports.
 
-### DuckyScript™ Payload Structure
+### Nugget Script Payload Structure
 
-When composing a DuckyScript™ payload, commands are executed line by line. It's also possible to press multiple keys at the same time by putting commands on the same line!
+When composing a Nugget Script payload, commands are executed line by line. It's also possible to press multiple keys at the same time by putting commands on the same line!
 
-To write out a piece of text, type STRING in all caps.  See the example below for how this works:
+To write out a piece of text, type TYPE in all caps.  See the example below for how this works:
 | Example        | Result                                             |
 |----------------|----------------------------------------------------|
 | SHIFT C        | Type the Shift key and then the c key              |
 | SHIFT C        | Press the Shift key and the c key at the same time |
-| STRING SHIFT C | Types out "SHIFT c"                                |
+| TYPE Hello     | Types out "Hello"                                  |
 
 ### Built-in Commands
 Now that we have the basics down, let's take a look at supported commands:
 | Command                             | Example               | Description                                                                                                                  |
 |-------------------------------------|-----------------------|------------------------------------------------------------------------------------------------------------------------------|
-| `REM`                               | `REM Hello World!`    | This is used to leave comments, and is not executed in the script                                                            |
-| `DEFAULTDELAY`  or  `DEFAULT_DELAY` | `DEFAULTDELAY 200`    | This sets the default time in ms between each command                                                                        |
-| `DELAY`                             | `DELAY 1000`          | Sets a one-time delay in ms                                                                                                  |
-| `STRING`                            | `STRING Hello World!` | Types whatever string follows the command                                                                                    |
-| `LED`                               | `LED R`               | Changes the color of the LED.  Current Options:  R = red, G = green, B = blue, C = cyan, Y = yellow, M = magenta,  W = white |
+| `//`                                | `// Some comment`     | This is used to leave comments, and is not executed in the script                                                            |
+| `DEFAULTWAIT`  or  `DEFAULT_WAIT`   | `DEFAULTWAIT 200`     | This sets the default time in ms between each command                                                                        |
+| `WAIT`                              | `WAIT 1000`           | Sets a one-time delay in ms                                                                                                  |
+| `TYPE`                              | `TYPE Hello World!`   | Types whatever string follows the command                                                                                    |
+| `LED`                               | `LED R`               | Changes the color of the LED. Current Options:  R = red, G = green, B = blue, C = cyan, Y = yellow, M = magenta,  W = white  |
+| `SCREEN`                            | `SCREEN Hello`        | Displays the string after the command on the USB Nugget's screen                                                             |
 
 ### Supported Keys
 Most standard keys are supported by the Rubber Nugget.
-| Key        |
-|------------|
-| `a`-`z`    |
-| `A`-`Z`    |
-| `1`-`9`    |
-| `F1`-`F12` |
+| Key                   |
+|-----------------------|
+| `a`-`z`               |
+| `A`-`Z`               |
+| `1`-`9`               |
+| `F1`-`F12`            |
+| `!@#$%^&*()_-=+`, etc |
 
 ### Modifier Keys
 Keys like SHIFT, ALT, and the WINDOWS or GUI key can be useful for accessing hotkey combinations, are are frequently used in combination key presses.
-| Key                   |
-|-----------------------|
-| `CTRL`  or  `CONTROL` |
-| `SHIFT`               |
-| `ALT`                 |
-| `WINDOWS`  or  `GUI`  |
+| Key                      |
+|--------------------------|
+| `CTRL`  or  `CONTROL`    |
+| `SHIFT`                  |
+| `ALT`                    |
+| `WINDOWS` `CMD` or `GUI` |
 
 ### Other Useful Keys
 Virtually anything you can do behind a keyboard can be recreated with the right keypresses. 
@@ -86,4 +88,4 @@ The following keys are essential to trigger keyboard shortcuts and navigate with
 | `PRINTSCREEN`
 | `SCROLLLOCK`
 
-Now that we've gone over the supported DuckyScript commands, let's load and deploy a payload to the USB Nugget.
+Now that we've gone over the supported Nugget Script commands, let's load and deploy a payload to the USB Nugget.

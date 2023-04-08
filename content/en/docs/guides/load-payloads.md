@@ -14,18 +14,18 @@ toc: true
 ---
 The USB Nugget supports adding payloads both through the web interface and directly over USB. 
 
-To start, let's write a simple DuckyScript Payload and save it over USB.
+To start, let's write a simple Nugget Script payload and save it over USB.
 
 **Step 1: Write & Save a Simple Script**
 
 In your word processer of choice, write out a simple script and save it a plain .TXT file
 ```bash
 GUI SPACE
-DELAY 100
-STRING Terminal
+WAIT 100
+TYPE Terminal
 ENTER
-DELAY 1000
-STRING curl parrot.live
+WAIT 1000
+TYPE curl parrot.live
 ENTER
 ```
 
