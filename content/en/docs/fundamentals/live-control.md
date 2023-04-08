@@ -23,7 +23,7 @@ To access the web interface and run payloads live, connect to the USB Nugget's W
 From this page, you can create, run, and save payloads to your USB Nugget.
 
 ## Python Script
-If you want to use a scrip to send DuckyScript commands or files to your USB Nugget, the following scripts will help you get started. 
+If you want to use a script to send DuckyScript commands or files to your USB Nugget, the following scripts will help you get started. 
 <br /><br />
 The following simple Python script can be used to send individual DuckyScript commands from your computer while connected to the RubberNugget's Wi-Fi network.
 ```
