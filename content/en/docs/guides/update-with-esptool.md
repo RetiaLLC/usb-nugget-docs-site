@@ -16,7 +16,7 @@ toc: true
 
 If you're more comfortable in the command line (or just hate using Chrome), you can also update your nugget using [ESPtool](https://github.com/espressif/esptool).
 
-**Step 1: Visit the [release page](https://github.com/HakCat-Tech/RubberNugget/releases) & download the most recent .BIN file.**
+**Step 1: Visit the [flashing site](https://nugget.dev/) & download the most recent .BIN file.**
 
 **Step 2: On the back of your Nugget, locate the "0" button & hold it down.**
 

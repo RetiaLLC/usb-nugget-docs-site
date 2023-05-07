@@ -14,7 +14,7 @@ toc: true
 ---
 The USB Nugget supports adding payloads both through the web interface and directly over USB. 
 
-To start, let's write a simple Nugget Script payload and save it over USB.
+To start, let's write a simple CatScratch payload and save it over USB.
 
 **Step 1: Write & Save a Simple Script**
 
@@ -40,10 +40,6 @@ The Nugget comes pre-loaded with 4 different folders to cover 3 operating system
 - Starred payloads 
 
 You can re-name these folders if you wish.
-
-Inside each folder, you can add up to 3 sub-folders to organize your payloads by category. Each sub-folder can hold 3 payloads, for a maximum of 36 payloads total.
-
-{{< alert icon="⛔️" text="You can add more than 36 payloads and still access them via the web interface, but they will not be visible via the button interface. " />}}
 
 **Step 3: Drag & Drop Your Payload to the Nugget**
 

@@ -17,7 +17,7 @@ toc: true
 
 Your USB Nugget can act as a vulnerable web application, letting you safely and legally practice webapp pentesting tools like Owasp Zap or Burpsuite!
 <br /><br />
-Check out the project here: [https://github.com/HakCat-Tech/DamnVulnerableNug](https://github.com/HakCat-Tech/DamnVulnerableNug)
+Check out the project here: [https://github.com/RetiaLLC/DamnVulnerableNug](https://github.com/RetiaLLC/DamnVulnerableNug)
 <br /><br />
 To follow along, watch the video below:
 

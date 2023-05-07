@@ -19,7 +19,7 @@ toc: true
 <br /><br />
 The USB Nugget can be flashed to act as a SSDP (Simple Service Discovery Protocol) device, connecting to a Wi-Fi network appearing to nearby Windows users as a network-attached drive.
 <br /> <br />
-This attack can be used to redirect users to phishing pages when they click on the drive. We created a demo you can find here: <a href="https://github.com/HakCat-Tech/Nugget-SSDP-Phisher/raw/main/img/Nugget-SSDP.png">https://github.com/HakCat-Tech/Nugget-SSDP-Phisher/raw/main/img/Nugget-SSDP.png</a>
+This attack can be used to redirect users to phishing pages when they click on the drive. We created a demo you can find here: <a href="https://github.com/RetiaLLC/Nugget-SSDP-Phisher/raw/main/img/Nugget-SSDP.png">https://github.com/RetiaLLC/Nugget-SSDP-Phisher/raw/main/img/Nugget-SSDP.png</a>
 <br /><br />
 You can check out the guide below to try the attack yourself:
 <br /><br />

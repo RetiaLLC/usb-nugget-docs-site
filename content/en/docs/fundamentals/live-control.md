@@ -23,9 +23,9 @@ To access the web interface and run payloads live, connect to the USB Nugget's W
 From this page, you can create, run, and save payloads to your USB Nugget.
 
 ## Python Script
-If you want to use a script to send Nugget Script commands or files to your USB Nugget, the following scripts will help you get started. 
+If you want to use a script to send CatScratch commands or files to your USB Nugget, the following scripts will help you get started. 
 <br /><br />
-The following simple Python script can be used to send individual Nugget Script commands from your computer while connected to the RubberNugget's Wi-Fi network.
+The following simple Python script can be used to send individual CatScratch commands from your computer while connected to the RubberNugget's Wi-Fi network.
 ```
 import requests, base64
 url = 'http://192.168.4.1/runlive.php'
@@ -34,13 +34,13 @@ while True:
     try: requests.post(url, base64.b64encode(pew.encode()))
     except: print("Sent")
 ```
-If you want to sent entire Nugget Script payloads, you can use the following short script to send .TXT files.
+If you want to sent entire CatScratch payloads, you can use the following short script to send .TXT files.
 ```
 import requests, base64
 url = 'http://192.168.4.1/runlive.php'
 
 while True:
-    pew = input("Enter path to Nugget Script File:\n")
+    pew = input("Enter path to CatScratch File:\n")
     file = open(pew, "r")
     payload = file.read()
     try: requests.post(url, base64.b64encode(payload.encode()))

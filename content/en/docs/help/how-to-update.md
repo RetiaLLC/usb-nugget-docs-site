@@ -13,12 +13,4 @@ weight: 610
 toc: true
 ---
 
-{{< alert icon="💡" text="Download the <a href=\"https://docs.npmjs.com/about-semantic-versioning\">latest binary release</a> on our GitHub page." />}}
-
-## Download the latest firmware
-
-Download the latest USB Nugget [binary release]() on our official GitHub repository.  The current version is `v1.1`.
-
-## Flash Your Nugget
-
-Use our [online web flasher](https://hakcat-tech.github.io/esp-web-flasher/) in a web browser to flash the latest firmware to your USB Nugget!
+Use our [online web flasher](https://nugget.dev) in Chrome to flash the latest firmware to your USB Nugget!

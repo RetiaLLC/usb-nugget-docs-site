@@ -15,15 +15,15 @@ toc: true
 ## Other documentation
 
 - [Hak5 Payload Repository](https://docs.hak5.org)
-- [Official Nugget Payloads](https://github.com/HakCat-Tech/USB-Nugget-Payloads)
+- [Official CatScratch Payloads](https://github.com/RetiaLLC/USB-Nugget-Payloads)
 
 ## Where can I get support?
 
 - [Hak5 Discord Community](https://discord.com/invite/QfmZFTyTY2)
-- [GitHub Issues](https://github.com/HakCat-Tech/USB-Nugget/issues/)
+- [GitHub Issues](https://github.com/RetiaLLC/USB-Nugget/issues/)
 
 ## Learn more
 
 Send us a message:
 
-- [Twitter: @HakCat_Tech](https://twitter.com/HakCat_Tech)
+- [Twitter: @RetiaLLC](https://twitter.com/RetiaLLC)

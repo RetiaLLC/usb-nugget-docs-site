@@ -1,7 +1,7 @@
 ---
 title: "Writing Your First Payload"
-description: "Making Nugget Script Payloads on the USB Nugget"
-lead: "Making Nugget Script Payloads on the USB Nugget"
+description: "Making CatScratch payloads on the USB Nugget"
+lead: "Making CatScratch payloads on the USB Nugget"
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
@@ -15,15 +15,15 @@ toc: true
 <img src="/images/payload.gif" title="Payload Image"/>
 <br /><br />
 
-The USB Nugget supports Nugget Script, making it easy to create your first payload!
+The USB Nugget supports CatScratch, making it easy to create your first payload!
 
-If you need inspiration, you can find a list of Nugget Script payloads on the [Hak5 GitHub repository](https://github.com/hak5/usbrubberducky-payloads). 
+If you need inspiration, you can find a list of payloads on the Hak5 GitHub repository](https://github.com/hak5/usbrubberducky-payloads), which can be converted to CatScratch with our [converter tool](https://github.com/RetiaLLC/Nugget_Tools).
 
-To get started, let's review the full list of Nugget Script commands the USB Nugget supports.
+To get started, let’s review the full list of CatScratch commands the USB Nugget supports.
 
-### Nugget Script Payload Structure
+### CatScratch Payload Structure
 
-When composing a Nugget Script payload, commands are executed line by line. It's also possible to press multiple keys at the same time by putting commands on the same line!
+When writing a CatScratch payload, commands are executed line by line. It's also possible to press multiple keys at the same time by putting commands on the same line!
 
 To write out a piece of text, type TYPE in all caps.  See the example below for how this works:
 | Example        | Result                                             |
@@ -88,4 +88,4 @@ The following keys are essential to trigger keyboard shortcuts and navigate with
 | `PRINTSCREEN`
 | `SCROLLLOCK`
 
-Now that we've gone over the supported Nugget Script commands, let's load and deploy a payload to the USB Nugget.
+Now that we've gone over the supported CatScratch commands, let's load and deploy a payload to the USB Nugget.

@@ -69,7 +69,7 @@ To add files, drag and drop them from your computer to the board.
 ### Using the neopixel
 In Mu Editor, create a new file, name it "code.py", and save it to your CIRCUITPY drive.
 
-Copy or download the following script into your file: [https://github.com/HakCat-Tech/S2-Nugget/blob/main/NeoPixelTest_CircuitPy_Nugget.py](https://github.com/HakCat-Tech/S2-Nugget/blob/main/NeoPixelTest_CircuitPy_Nugget.py)
+Copy or download the following script into your file: [https://github.com/RetiaLLC/S2-Nugget/blob/main/NeoPixelTest_CircuitPy_Nugget.py](https://github.com/RetiaLLC/S2-Nugget/blob/main/NeoPixelTest_CircuitPy_Nugget.py)
 
 At the bottom of the script (on lines 55-58), uncomment the function you'd like to test.
 
@@ -80,14 +80,14 @@ You can choose from:
 4. **RandomChase()** Uncomment this to test creating a racing animation for neopixel strips or rings
 
 #### Reading Wi-Fi packets
-To try out Wi-Fi packet parsing, download the Wifi_Deauth_Detector_Example.zip file here: [https://github.com/HakCat-Tech/S2-Nugget/blob/main/Wifi_Deauth_Detector_Example.zip](https://github.com/HakCat-Tech/S2-Nugget/blob/main/Wifi_Deauth_Detector_Example.zip)
+To try out Wi-Fi packet parsing, download the Wifi_Deauth_Detector_Example.zip file here: [https://github.com/RetiaLLC/S2-Nugget/blob/main/Wifi_Deauth_Detector_Example.zip](https://github.com/RetiaLLC/S2-Nugget/blob/main/Wifi_Deauth_Detector_Example.zip)
 
 Unzip the .ZIP file, and drag and drop the contents into your CircuitPy board, overwriting the existing /lib folder and code.py
 
 Open Code.py to see the code under the hood, otherwise the code should run and detect deauth packets with a shocked anime face.
 
 ### Controlling the screen
-To try loading a bitmap on the screen, download the OLED Bitmap example here: [https://github.com/HakCat-Tech/S2-Nugget/blob/main/OLED_Bitmap_Example.zip](https://github.com/HakCat-Tech/S2-Nugget/blob/main/OLED_Bitmap_Example.zip)
+To try loading a bitmap on the screen, download the OLED Bitmap example here: [https://github.com/RetiaLLC/S2-Nugget/blob/main/OLED_Bitmap_Example.zip](https://github.com/RetiaLLC/S2-Nugget/blob/main/OLED_Bitmap_Example.zip)
 
 Unzip the .ZIP file, and drag and drop the contents into your CircuitPy board, overwriting the existing /lib folder and code.py
 
@@ -96,7 +96,7 @@ You can drag and drop black and white .BMP images that are 128X64 onto your boar
 #### HID Attack Examples
 The S2 Nugget supports HID attacks! You can pretend to be a keyboard or mouse to send keystrokes or control mouse movements.
 
-To try out the HID attack examples, download the ZIP file here: [https://github.com/HakCat-Tech/S2-Nugget/blob/main/HID_Attack_CircuitPython_Examples.zip](https://github.com/HakCat-Tech/S2-Nugget/blob/main/HID_Attack_CircuitPython_Examples.zip)
+To try out the HID attack examples, download the ZIP file here: [https://github.com/RetiaLLC/S2-Nugget/blob/main/HID_Attack_CircuitPython_Examples.zip](https://github.com/RetiaLLC/S2-Nugget/blob/main/HID_Attack_CircuitPython_Examples.zip)
 
 Unzip the .ZIP file, and drag and drop the contents into your CircuitPy board, overwriting the existing /lib folder and code.py
 

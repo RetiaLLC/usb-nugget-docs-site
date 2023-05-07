@@ -15,7 +15,7 @@ toc: true
 
 ![Nugget Boards](/images/Nugget_Boards.png)
 
-If you're having software or hardware problems with the USB Nugget, please open an issue on our [GitHub repository](https://github.com/HakCat-Tech/RubberNugget/tree/main/RubberNugget/issues).
+If you're having software or hardware problems with the USB Nugget, please come talk to us on our [Discord Server](https://discord.gg/KqKW5rsnGe).
 Make sure to include the following information:
 - Is this a bug, feature request, or feedback?
 - What steps are needed to reproduce the issue?

@@ -15,9 +15,9 @@ twitterCreator = "@henkverlinde"
 
 ## JSON-LD
 schemaType = "Organization"
-schemaName = "HakCat Tech"
-schemaAuthorTwitter = "https://twitter.com/HakCat-Tech"
-schemaAuthorGitHub = "https://github.com/HakCat-Tech/USB-Nugget"
+schemaName = "Retia, LLC"
+schemaAuthorTwitter = "https://twitter.com/RetiaLLC"
+schemaAuthorGitHub = "https://github.com/RetiaLLC/USB-Nugget"
 schemaLocale = "en-US"
 schemaLogo = "logo.png"
 schemaLogoWidth = 512
@@ -25,8 +25,8 @@ schemaLogoHeight = 512
 schemaImage = "doks.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/HakCat-Tech"
-schemaGitHub = "https://github.com/HakCat-Tech"
+schemaTwitter = "https://twitter.com/RetiaLLC"
+schemaGitHub = "https://github.com/RetiaLLC"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -55,10 +55,10 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "© 2022 HakCat"
+footer = "© 2023 Retia, LLC"
 
 # Feed
-copyRight = "Copyright (c) 2022 HakCat"
+copyRight = "Copyright (c) 2023 Retia, LLC"
 
 # Alert
 alert = false
