@@ -1,8 +1,4 @@
-Live develop with:
+These documents have moved.
 
-```
-npm install
-npm run start
-```
 
-The website should auto-redelpoy once pushed
+To view the source code of the updated version, please go to https://github.com/RetiaLLC/usb-docs
